@@ -29,3 +29,10 @@ import 'cypress-file-upload';
 Cypress.Commands.add('textExists', (text) => {
   cy.contains(text).should('exist');
 });
+
+Cypress.Commands.add('getIframe', (iframe) => {
+    return cy.get(iframe)
+    .its('0.contentDocument.body')
+    .should('be.visible')
+    .then(cy.wrap);
+});

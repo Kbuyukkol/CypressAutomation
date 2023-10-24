@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
     "eslint": "^8.51.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.0.0",
