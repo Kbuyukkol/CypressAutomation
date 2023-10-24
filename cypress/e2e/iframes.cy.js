@@ -1,6 +1,6 @@
 /// <reference types ="cypress" />
 
-import 'cypress-iframe';
+import 'cypress-iframe'
 
 describe('handle iframe by wrap ', () => {
   it('handle iframes', () => {
