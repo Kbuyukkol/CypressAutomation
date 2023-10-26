@@ -1,4 +1,4 @@
-/// <reference types ="cypress" />
+
 
 describe('Webtable tests', { baseUrl: 'https://demoqa.com' }, () => {
   beforeEach(

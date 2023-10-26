@@ -1,4 +1,3 @@
-/// <reference types ="cypress" />
 
 describe('Alerts tests', { baseUrl: 'https://demoqa.com'},() => {
     beforeEach(() => {

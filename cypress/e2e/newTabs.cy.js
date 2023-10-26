@@ -1,4 +1,4 @@
-/// <reference types ="cypress" />
+
 
 describe('Handle tabs', () => {
   it.skip('handle tabs by invoke function', () => {

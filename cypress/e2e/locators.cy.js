@@ -1,4 +1,4 @@
-/// <reference types ="cypress" />
+
 
 describe('Find elements', () => {
   beforeEach(() => {

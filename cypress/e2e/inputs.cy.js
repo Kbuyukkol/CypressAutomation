@@ -1,4 +1,4 @@
-/// <reference types ="cypress" />
+
 
 describe('Input tests', () => {
   beforeEach('Navigate to registration page', () => {

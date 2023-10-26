@@ -26,6 +26,8 @@
 
 import 'cypress-file-upload'
 
+/// <reference types ="cypress" />
+
 
 Cypress.Commands.add('textExists', (text) => {
   cy.contains(text).should('exist');

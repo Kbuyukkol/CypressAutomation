@@ -23,7 +23,7 @@ describe('handle dropdowns', () => {
 
   });
 
-  it('dynamic dropdown', () => {
+  it.only('dynamic dropdown', () => {
     cy.visit('https://www.google.com');
 
     cy.get('textarea[name="q"]').type('cypress automation');
@@ -34,10 +34,9 @@ describe('handle dropdowns', () => {
         if($el.text()=='cypress automation tool'){
           cy.wrap($el).click();
         }
-
-
+      
     })
-    
+    cy.get('textarea[name="q"]').should('have.value','cypress automation tool');
 
   });
 
