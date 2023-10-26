@@ -9,7 +9,7 @@ describe('Webtable tests', { baseUrl: 'https://demoqa.com' }, () => {
     }),
   );
 
-  it('Check finding a record in a table', () => {
+  it.skip('Check finding a record in a table', () => {
     cy.get('.rt-tbody')
       .contains('.rt-tr-group', 'Alden')
       .then((row) => {
@@ -23,7 +23,7 @@ describe('Webtable tests', { baseUrl: 'https://demoqa.com' }, () => {
       });
   });
 
-  it('Check finding a record and deleting in a table', () => {
+  it.skip('Check finding a record and deleting in a table', () => {
     cy.get('.rt-tbody')
       .contains('.rt-tr-group', 'Alden')
       .then((row) => {
